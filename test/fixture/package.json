@@ -1,0 +1,7 @@
+{
+  "operations": {
+    "aws": {
+      "test": true
+    }
+  }
+}

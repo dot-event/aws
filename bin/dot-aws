@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+
+const dotEvent = require("dot-event").default
+const dotTask = require("@dot-event/task").default
+
+const dotAws = require("../dist/aws").default
+
+const events = dotEvent()
+
+dotAws({ events })
+dotTask({ events })
+
+events
+  .task({
+    argv: process.argv.slice(2),
+    op: "aws",
+    path: process.cwd(),
+  })
+  .catch(function(e) {
+    console.error(e)
+    process.exit(1)
+  })
