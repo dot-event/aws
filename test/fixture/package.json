@@ -1,6 +1,7 @@
 {
   "operations": {
     "aws": {
+      "config": "./aws.yaml",
       "test": true
     }
   }
