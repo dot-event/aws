@@ -1,1 +1,3 @@
-aws: true
+accounts:
+  east:
+    region: us-east-1

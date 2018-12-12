@@ -25,20 +25,18 @@ beforeEach(async () => {
 
   aws({ events })
   dotTask({ events })
-
-  events.onAny({
-    "before.spawn": cancel,
-  })
 })
 
 test("aws", async () => {
   const calls = []
 
-  events.onAny("before.spawn", ({ event }) =>
+  events.onAny("before.spawn", ({ event }) => {
     calls.push(event.options)
-  )
+    cancel({ event })
+    event.signal.returnValue = {}
+  })
 
-  await run("--dns")
+  await run("--dns", "--aws=east", "--domain=test.test.com")
 
-  expect(calls.length).toBe(0)
+  expect(calls.length).toBe(2)
 })
