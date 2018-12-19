@@ -1,6 +1,6 @@
 {
   "name": "@dot-event/aws",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "dot-event operation",
   "keywords": [
     "dot-event",
