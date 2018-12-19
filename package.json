@@ -59,7 +59,7 @@
     "@dot-event/log": "0.13.5",
     "@dot-event/spawn": "2.6.24",
     "@dot-event/store": "6.0.7",
-    "@dot-event/task": "1.11.20",
+    "@dot-event/task": "1.11.21",
     "deepmerge": "3.0.0",
     "dot-event": "2.12.8",
     "husky": "1.2.0"
