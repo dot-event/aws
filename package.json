@@ -57,7 +57,7 @@
     "@babel/runtime": "7.2.0",
     "@dot-event/argv": "2.10.8",
     "@dot-event/log": "0.13.5",
-    "@dot-event/spawn": "2.6.27",
+    "@dot-event/spawn": "2.6.28",
     "@dot-event/store": "6.0.7",
     "@dot-event/task": "1.11.24",
     "deepmerge": "3.0.0",
