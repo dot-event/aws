@@ -1,6 +1,6 @@
 {
   "name": "@dot-event/aws",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "dot-event operation",
   "keywords": [
     "dot-event",
@@ -55,13 +55,13 @@
   },
   "dependencies": {
     "@babel/runtime": "7.2.0",
-    "@dot-event/argv": "2.10.9",
-    "@dot-event/log": "0.13.6",
-    "@dot-event/spawn": "2.6.31",
-    "@dot-event/store": "6.0.8",
-    "@dot-event/task": "1.11.27",
+    "@dot-event/argv": "2.10.10",
+    "@dot-event/log": "0.13.7",
+    "@dot-event/spawn": "2.6.32",
+    "@dot-event/store": "6.0.9",
+    "@dot-event/task": "1.11.28",
     "deepmerge": "3.0.0",
-    "dot-event": "2.12.9",
+    "dot-event": "2.12.10",
     "husky": "1.2.0"
   },
   "devDependencies": {
